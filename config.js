@@ -13,5 +13,5 @@ const nodes = [
 //  { name: 'AS-SIN-2', hostname: 'node-2.sin.turtlenode.io', port: 11898, region: 'Asia' },
 //  { name: 'AS-SIN-3', hostname: 'node-3.sin.turtlenode.io', port: 11898, region: 'Asia' },
   { name: 'TOR-1', hostname: 'node-1.tor.athenanode.io', port: 12001, region: 'Canada' },
-//  { name: 'SEED', hostname: 'seed.athenanode.io', port: 12001, region: 'US West' }
+  { name: 'SEED', hostname: '165.227.252.132', port: 12001, region: 'Unknown' }
 ]
