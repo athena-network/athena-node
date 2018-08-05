@@ -6,34 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Athena (ATHX) is a CryptoNote slow settlement network.">
 	
-		<title>Athena (ATHX) - Slow Settlement Network</title>
+		<title>Athena (ATHX) Nodes</title>
 
 		<link rel='shortcut icon' type='image/x-icon' href='assets/favicon.ico' />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-
-		<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-		<script type="text/javascript">
-			document.addEventListener('DOMContentLoaded', () => {
-				const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-				if ($navbarBurgers.length > 0) {
-				$navbarBurgers.forEach( el => {
-					el.addEventListener('click', () => {
-					const target = el.dataset.target;
-					const $target = document.getElementById(target);
-					el.classList.toggle('is-active');
-					$target.classList.toggle('is-active');
-					});
-				});
-				}
-			});
-		</script>
-		<script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-		<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-		<link href="//cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
-
-		<script src="js/config.js"></script>
-		<script src="js/main.min.js"></script>
 	</head>
 
 	<body >
@@ -159,6 +135,29 @@
 				</div>
 			</footer>
 		</section>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+		<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', () => {
+				const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+				if ($navbarBurgers.length > 0) {
+				$navbarBurgers.forEach( el => {
+					el.addEventListener('click', () => {
+					const target = el.dataset.target;
+					const $target = document.getElementById(target);
+					el.classList.toggle('is-active');
+					$target.classList.toggle('is-active');
+					});
+				});
+				}
+			});
+		</script>
+		<script src="./config.js"></script>
+		<script src="./assets/js/main.min.js"></script>
 	</body>
 </html>
 
