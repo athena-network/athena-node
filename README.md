@@ -1,6 +1,6 @@
-# TurtleNode.io
+# Athena Nodes
 
-This repository contains the source code for the TurtleNode.io website.
+This repository contains the source code for the athxnode.io website which is forked from turtlenode.io. Only difference really is that athxnode.io uses Bulma to Boostrap. 
 
 It is designed to work hand in hand with the following additional service.
 
@@ -8,30 +8,13 @@ It is designed to work hand in hand with the following additional service.
 
 ## To Use
 
-To use this site edit ``js/config.js`` to reflect your API interface or use my public API proxy.
+To use this site edit ``config.js`` to reflect your API interface.
 
-You can then update the list of nodes to show on the site in ``js/config.js`` in the section for the nodes.
 
-```javascript
-const nodes = [
-  { name: 'US-East-1', hostname: 'node-1.nyc.turtlenode.io', port: 11898, region: 'US East' },
-  { name: 'US-East-2', hostname: 'node-2.nyc.turtlenode.io', port: 11898, region: 'US East' },
-  { name: 'US-East-3', hostname: 'node-3.nyc.turtlenode.io', port: 11898, region: 'US East' },
-  { name: 'US-West-1', hostname: 'node-1.sfo.turtlenode.io', port: 11898, region: 'US West' },
-  { name: 'US-West-2', hostname: 'node-2.sfo.turtlenode.io', port: 11898, region: 'US West' },
-  { name: 'US-West-3', hostname: 'node-3.sfo.turtlenode.io', port: 11898, region: 'US West' },
-  { name: 'EU-AMS-1', hostname: 'node-1.ams.turtlenode.io', port: 11898, region: 'Europe' },
-  { name: 'EU-AMS-2', hostname: 'node-2.ams.turtlenode.io', port: 11898, region: 'Europe' },
-  { name: 'EU-AMS-3', hostname: 'node-3.ams.turtlenode.io', port: 11898, region: 'Europe' }
-]
-```
+## Credits
 
-## Development
+* @iburnmycd - I'll kindly accept your donation in [TRTL] if you love this project.
 
-You can find me on the TurtleCoin discord at http://chat.turtlecoin.lol/ as @iburnmycd
-
-### Donations
-
-I'll kindly accept your donation in [TRTL] if you love this project.
-
+``
 TRTLv1pacKFJk9QgSmzk2LJWn14JGmTKzReFLz1RgY3K9Ryn7783RDT2TretzfYdck5GMCGzXTuwKfePWQYViNs4avKpnUbrwfQ
+``
